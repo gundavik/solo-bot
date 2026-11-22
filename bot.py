@@ -1,8 +1,8 @@
+import os
 import discord
 from discord.ext import commands
 from datetime import datetime, timezone, timedelta
 from collections import defaultdict, deque
-
 # --- НАСТРОЙКИ ---
 TOKEN = os.getenv("DISCORD_TOKEN") 
 WELCOME_CHANNEL_ID = 1511258415169667103   # ID канала приветствия/прощания
