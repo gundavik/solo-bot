@@ -4,7 +4,7 @@ from datetime import datetime, timezone, timedelta
 from collections import defaultdict, deque
 
 # --- НАСТРОЙКИ ---
-TOKEN = "MTU3MjY2MDUzNTc4NTE2MDc1NA.Geih_N.b5AVkBgdTLWRhx5jlhtC_1APNeezG4YFo1rfFc"         # <--- ОБЯЗАТЕЛЬНО ВСТАВЬ СВОЙ НОВЫЙ ТОКЕН В КАВЫЧКИ!
+TOKEN = os.getenv("DISCORD_TOKEN") 
 WELCOME_CHANNEL_ID = 1511258415169667103   # ID канала приветствия/прощания
 AUTO_ROLE_ID = 995430962785697833          # ID роли
 
